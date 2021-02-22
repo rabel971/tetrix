@@ -1,0 +1,6 @@
+<map id="TetrixPiece::rotatedRight" name="TetrixPiece::rotatedRight">
+<area shape="rect" id="node2" href="$d3/df9/classTetrixPiece.html#a9dc33a566d5e7220cced8575b4530847" title="TetrixPiece::setX" alt="" coords="220,5,343,32"/>
+<area shape="rect" id="node3" href="$d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830" title="TetrixPiece::y" alt="" coords="230,56,333,83"/>
+<area shape="rect" id="node4" href="$d3/df9/classTetrixPiece.html#af07f79d66551af916b67c3738f1fa675" title="TetrixPiece::setY" alt="" coords="220,107,343,133"/>
+<area shape="rect" id="node5" href="$d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6" title="TetrixPiece::x" alt="" coords="230,157,333,184"/>
+</map>

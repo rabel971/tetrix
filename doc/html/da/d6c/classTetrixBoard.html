@@ -1,0 +1,1572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tetris: Référence de la classe TetrixBoard</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Tetris
+   &#160;<span id="projectnumber">QT</span>
+   </div>
+   <div id="projectbrief">Code Tetris sous QT</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('da/d6c/classTetrixBoard.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pro-methods">Fonctions membres protégées</a> &#124;
+<a href="#pri-types">Types privés</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../de/d95/classTetrixBoard-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe TetrixBoard</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>[0]  
+ <a href="../../da/d6c/classTetrixBoard.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>&gt;</code></p>
+<div class="dynheader">
+Graphe d'héritage de TetrixBoard:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d19/classTetrixBoard__inherit__graph.png" border="0" usemap="#TetrixBoard_inherit__map" alt="Inheritance graph"/></div>
+<map name="TetrixBoard_inherit__map" id="TetrixBoard_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">légende</a>]</span></center></div>
+<div class="dynheader">
+Graphe de collaboration de TetrixBoard:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d9b/classTetrixBoard__coll__graph.png" border="0" usemap="#TetrixBoard_coll__map" alt="Collaboration graph"/></div>
+<map name="TetrixBoard_coll__map" id="TetrixBoard_coll__map">
+<area shape="rect" id="node3" href="../../d3/df9/classTetrixPiece.html" title="[0] " alt="" coords="99,5,187,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">légende</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr class="memitem:a15181dfd0dca197cae1acfaa94c76b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a15181dfd0dca197cae1acfaa94c76b8d">start</a> ()</td></tr>
+<tr class="memdesc:a15181dfd0dca197cae1acfaa94c76b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">[3]  <a href="#a15181dfd0dca197cae1acfaa94c76b8d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a15181dfd0dca197cae1acfaa94c76b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9efdfca0956d6896863de76ef838a5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ab9efdfca0956d6896863de76ef838a5c">pause</a> ()</td></tr>
+<tr class="memdesc:ab9efdfca0956d6896863de76ef838a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">[4]  <a href="#ab9efdfca0956d6896863de76ef838a5c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab9efdfca0956d6896863de76ef838a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr class="memitem:a92391ad9b9eba7eb38e08befbfa4a6ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">scoreChanged</a> (int <a class="el" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a>)</td></tr>
+<tr class="separator:a92391ad9b9eba7eb38e08befbfa4a6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae6c23985bc3e11621267d0a261a23b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#aae6c23985bc3e11621267d0a261a23b1">levelChanged</a> (int <a class="el" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a>)</td></tr>
+<tr class="separator:aae6c23985bc3e11621267d0a261a23b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5668471e8260c0de58844b36db7c70ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a5668471e8260c0de58844b36db7c70ac">linesRemovedChanged</a> (int numLines)</td></tr>
+<tr class="separator:a5668471e8260c0de58844b36db7c70ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a51c12072790be2d07a0035c8ffe9a5f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a51c12072790be2d07a0035c8ffe9a5f2">TetrixBoard</a> (QWidget *parent=0)</td></tr>
+<tr class="memdesc:a51c12072790be2d07a0035c8ffe9a5f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">[0]  <a href="#a51c12072790be2d07a0035c8ffe9a5f2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a51c12072790be2d07a0035c8ffe9a5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ed6222f1dab7974cf6e21ae4cec2bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ae3ed6222f1dab7974cf6e21ae4cec2bc">setNextPieceLabel</a> (QLabel *label)</td></tr>
+<tr class="memdesc:ae3ed6222f1dab7974cf6e21ae4cec2bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">[0]  <a href="#ae3ed6222f1dab7974cf6e21ae4cec2bc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae3ed6222f1dab7974cf6e21ae4cec2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6993342a4a9c5d5b14e5844b85c6835f"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a6993342a4a9c5d5b14e5844b85c6835f">sizeHint</a> () const override</td></tr>
+<tr class="memdesc:a6993342a4a9c5d5b14e5844b85c6835f"><td class="mdescLeft">&#160;</td><td class="mdescRight">[1]  <a href="#a6993342a4a9c5d5b14e5844b85c6835f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6993342a4a9c5d5b14e5844b85c6835f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f439b1b046a725e25e76bac5f80585"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a43f439b1b046a725e25e76bac5f80585">minimumSizeHint</a> () const override</td></tr>
+<tr class="memdesc:a43f439b1b046a725e25e76bac5f80585"><td class="mdescLeft">&#160;</td><td class="mdescRight">[2] //! [3]  <a href="#a43f439b1b046a725e25e76bac5f80585">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a43f439b1b046a725e25e76bac5f80585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Fonctions membres protégées</h2></td></tr>
+<tr class="memitem:acb15cb84aa3134ab774bd7ae49ee65ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#acb15cb84aa3134ab774bd7ae49ee65ab">paintEvent</a> (QPaintEvent *event) override</td></tr>
+<tr class="memdesc:acb15cb84aa3134ab774bd7ae49ee65ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">[6]  <a href="#acb15cb84aa3134ab774bd7ae49ee65ab">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acb15cb84aa3134ab774bd7ae49ee65ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7f7e15484f6a38b7bcc99b892024cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a9e7f7e15484f6a38b7bcc99b892024cf">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
+<tr class="memdesc:a9e7f7e15484f6a38b7bcc99b892024cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">[12]  <a href="#a9e7f7e15484f6a38b7bcc99b892024cf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9e7f7e15484f6a38b7bcc99b892024cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c7c72e6b278967365178bd5edf5b20a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a3c7c72e6b278967365178bd5edf5b20a">timerEvent</a> (QTimerEvent *event) override</td></tr>
+<tr class="memdesc:a3c7c72e6b278967365178bd5edf5b20a"><td class="mdescLeft">&#160;</td><td class="mdescRight">[15]  <a href="#a3c7c72e6b278967365178bd5edf5b20a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3c7c72e6b278967365178bd5edf5b20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Types privés</h2></td></tr>
+<tr class="memitem:ad35e263de53f6af4439109619d19cc0e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> = 10, 
+<a class="el" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> = 22
+ }</td></tr>
+<tr class="memdesc:ad35e263de53f6af4439109619d19cc0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">[0]  <a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad35e263de53f6af4439109619d19cc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:af8f2f1c155c948d8b70f9d1ca9f1b050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a> (int x, int y)</td></tr>
+<tr class="separator:af8f2f1c155c948d8b70f9d1ca9f1b050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0e24928b7fa092b0c7e1582f79c805"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">timeoutTime</a> ()</td></tr>
+<tr class="separator:a1a0e24928b7fa092b0c7e1582f79c805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed498ff1edaaf536ed65f5deb8759e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a> ()</td></tr>
+<tr class="separator:a2ed498ff1edaaf536ed65f5deb8759e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3350e4f00935cde6fb2c567fb61c628a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a> ()</td></tr>
+<tr class="separator:a3350e4f00935cde6fb2c567fb61c628a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f52bbc23ca76143838bbd7c743f869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a96f52bbc23ca76143838bbd7c743f869">clearBoard</a> ()</td></tr>
+<tr class="memdesc:a96f52bbc23ca76143838bbd7c743f869"><td class="mdescLeft">&#160;</td><td class="mdescRight">[17]  <a href="#a96f52bbc23ca76143838bbd7c743f869">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a96f52bbc23ca76143838bbd7c743f869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb18f8c709c20e01e1639703d5697458"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#adb18f8c709c20e01e1639703d5697458">dropDown</a> ()</td></tr>
+<tr class="memdesc:adb18f8c709c20e01e1639703d5697458"><td class="mdescLeft">&#160;</td><td class="mdescRight">[18]  <a href="#adb18f8c709c20e01e1639703d5697458">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adb18f8c709c20e01e1639703d5697458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f56b509e625602512d5a74e35138cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a1f56b509e625602512d5a74e35138cfb">oneLineDown</a> ()</td></tr>
+<tr class="memdesc:a1f56b509e625602512d5a74e35138cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">[20]  <a href="#a1f56b509e625602512d5a74e35138cfb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1f56b509e625602512d5a74e35138cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a232b601a8cde5824aea18c21f388526f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a232b601a8cde5824aea18c21f388526f">pieceDropped</a> (int dropHeight)</td></tr>
+<tr class="memdesc:a232b601a8cde5824aea18c21f388526f"><td class="mdescLeft">&#160;</td><td class="mdescRight">[21]  <a href="#a232b601a8cde5824aea18c21f388526f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a232b601a8cde5824aea18c21f388526f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416472ea4841260180348c6a1229393d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a416472ea4841260180348c6a1229393d">removeFullLines</a> ()</td></tr>
+<tr class="memdesc:a416472ea4841260180348c6a1229393d"><td class="mdescLeft">&#160;</td><td class="mdescRight">[23]  <a href="#a416472ea4841260180348c6a1229393d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a416472ea4841260180348c6a1229393d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3bf521d1e493a1ef30c908f9b95ebf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a> ()</td></tr>
+<tr class="memdesc:a9c3bf521d1e493a1ef30c908f9b95ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">[29]  <a href="#a9c3bf521d1e493a1ef30c908f9b95ebf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9c3bf521d1e493a1ef30c908f9b95ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad477629cde4a828d974ef4b6fe6d9e88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ad477629cde4a828d974ef4b6fe6d9e88">showNextPiece</a> ()</td></tr>
+<tr class="memdesc:ad477629cde4a828d974ef4b6fe6d9e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">[31]  <a href="#ad477629cde4a828d974ef4b6fe6d9e88">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad477629cde4a828d974ef4b6fe6d9e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad15d60d66fe86d18cc44d030df1b6c1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a> (const <a class="el" href="../../d3/df9/classTetrixPiece.html">TetrixPiece</a> &amp;<a class="el" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>, int newX, int newY)</td></tr>
+<tr class="memdesc:ad15d60d66fe86d18cc44d030df1b6c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">[33]  <a href="#ad15d60d66fe86d18cc44d030df1b6c1e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad15d60d66fe86d18cc44d030df1b6c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfdb843c964c1c3c964f87dd268b2ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#accfdb843c964c1c3c964f87dd268b2ce">drawSquare</a> (QPainter &amp;painter, int x, int y, <a class="el" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a> shape)</td></tr>
+<tr class="memdesc:accfdb843c964c1c3c964f87dd268b2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">[35]  <a href="#accfdb843c964c1c3c964f87dd268b2ce">Plus de détails...</a><br /></td></tr>
+<tr class="separator:accfdb843c964c1c3c964f87dd268b2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a336b49118d293dc575c57cf6ba1499a8"><td class="memItemLeft" align="right" valign="top">QBasicTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a></td></tr>
+<tr class="separator:a336b49118d293dc575c57cf6ba1499a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb1a5a7e31203ff18f297688dcddce4"><td class="memItemLeft" align="right" valign="top">QPointer&lt; QLabel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">nextPieceLabel</a></td></tr>
+<tr class="separator:aadb1a5a7e31203ff18f297688dcddce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec0c37791251e5fbac2c00ac5011a25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">isStarted</a></td></tr>
+<tr class="separator:a6ec0c37791251e5fbac2c00ac5011a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1caf95731dd44b53be708a513ab27b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a></td></tr>
+<tr class="separator:a2b1caf95731dd44b53be708a513ab27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0050c6ef709db649cae11d82f685101"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">isWaitingAfterLine</a></td></tr>
+<tr class="separator:ab0050c6ef709db649cae11d82f685101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc7845a89226a529147303cdb236a3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/df9/classTetrixPiece.html">TetrixPiece</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a></td></tr>
+<tr class="separator:a4dc7845a89226a529147303cdb236a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d5d2ed5e9f5fa20bbea5dd0edc58fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/df9/classTetrixPiece.html">TetrixPiece</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a></td></tr>
+<tr class="separator:a53d5d2ed5e9f5fa20bbea5dd0edc58fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385431bde6038cd53aedbefc007b1d50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a></td></tr>
+<tr class="separator:a385431bde6038cd53aedbefc007b1d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e7fbad9b983db73090ee770178d8b70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a></td></tr>
+<tr class="separator:a0e7fbad9b983db73090ee770178d8b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa810c3cd9cacbce3c6f80dae271ad4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">numLinesRemoved</a></td></tr>
+<tr class="separator:a1fa810c3cd9cacbce3c6f80dae271ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81458427a092cb77a0bd13621d1da55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ab81458427a092cb77a0bd13621d1da55">numPiecesDropped</a></td></tr>
+<tr class="separator:ab81458427a092cb77a0bd13621d1da55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee4ac6c01d5083b1d97c64302fe7db1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a></td></tr>
+<tr class="separator:a9ee4ac6c01d5083b1d97c64302fe7db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0be9c3dc2560c49822101394d1e60bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a></td></tr>
+<tr class="separator:ae0be9c3dc2560c49822101394d1e60bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45191f503289922c875c5cc70d240b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/classTetrixBoard.html#a45191f503289922c875c5cc70d240b5f">board</a> [<a class="el" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> *<a class="el" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a>]</td></tr>
+<tr class="separator:a45191f503289922c875c5cc70d240b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>[0] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00065">65</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+</div><h2 class="groupheader">Documentation des énumérations membres</h2>
+<a id="ad35e263de53f6af4439109619d19cc0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35e263de53f6af4439109619d19cc0e">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[0] </p>
+<p>[1] </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valeurs énumérées</th></tr><tr><td class="fieldname"><a id="ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"></a>BoardWidth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"></a>BoardHeight&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00093">93</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{ <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> = 10, <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> = 22 };</div><div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a51c12072790be2d07a0035c8ffe9a5f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51c12072790be2d07a0035c8ffe9a5f2">&#9670;&nbsp;</a></span>TetrixBoard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TetrixBoard::TetrixBoard </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>[0] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00056">56</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    : QFrame(parent)</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    setFrameStyle(QFrame::Panel | QFrame::Sunken);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    setFocusPolicy(Qt::StrongFocus);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">isStarted</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a96f52bbc23ca76143838bbd7c743f869">clearBoard</a>();</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a1b5fd06886e455c0b77538112cff06db">setRandomShape</a>();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a6ec0c37791251e5fbac2c00ac5011a25"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">TetrixBoard::isStarted</a></div><div class="ttdeci">bool isStarted</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00111">tetrixboard.h:111</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a2b1caf95731dd44b53be708a513ab27b"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">TetrixBoard::isPaused</a></div><div class="ttdeci">bool isPaused</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00112">tetrixboard.h:112</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a96f52bbc23ca76143838bbd7c743f869"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a96f52bbc23ca76143838bbd7c743f869">TetrixBoard::clearBoard</a></div><div class="ttdeci">void clearBoard()</div><div class="ttdoc">[17] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00229">tetrixboard.cpp:229</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a1b5fd06886e455c0b77538112cff06db"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a1b5fd06886e455c0b77538112cff06db">TetrixPiece::setRandomShape</a></div><div class="ttdeci">void setRandomShape()</div><div class="ttdoc">[0] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00058">tetrixpiece.cpp:58</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a53d5d2ed5e9f5fa20bbea5dd0edc58fa"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">TetrixBoard::nextPiece</a></div><div class="ttdeci">TetrixPiece nextPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00115">tetrixboard.h:115</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a96f52bbc23ca76143838bbd7c743f869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f52bbc23ca76143838bbd7c743f869">&#9670;&nbsp;</a></span>clearBoard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::clearBoard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[17] </p>
+<p>[18] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00229">229</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;{</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> * <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>; ++i)</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a45191f503289922c875c5cc70d240b5f">board</a>[i] = <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>;</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;}</div><div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a45191f503289922c875c5cc70d240b5f"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a45191f503289922c875c5cc70d240b5f">TetrixBoard::board</a></div><div class="ttdeci">TetrixShape board[BoardWidth *BoardHeight]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00122">tetrixboard.h:122</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="accfdb843c964c1c3c964f87dd268b2ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accfdb843c964c1c3c964f87dd268b2ce">&#9670;&nbsp;</a></span>drawSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::drawSquare </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a>&#160;</td>
+          <td class="paramname"><em>shape</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[35] </p>
+<p>[36] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00397">397</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;{</div><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> QRgb colorTable[8] = {</div><div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        0x000000, 0xCC6666, 0x66CC66, 0x6666CC,</div><div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        0xCCCC66, 0xCC66CC, 0x66CCCC, 0xDAAA00</div><div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    };</div><div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    QColor color = colorTable[int(shape)];</div><div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    painter.fillRect(x + 1, y + 1, <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>() - 2, <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>() - 2,</div><div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                     color);</div><div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div><div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    painter.setPen(color.light());</div><div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    painter.drawLine(x, y + <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>() - 1, x, y);</div><div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    painter.drawLine(x, y, x + <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>() - 1, y);</div><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    painter.setPen(color.dark());</div><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    painter.drawLine(x + 1, y + <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>() - 1,</div><div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;                     x + <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>() - 1, y + <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>() - 1);</div><div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    painter.drawLine(x + <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>() - 1, y + <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>() - 1,</div><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;                     x + <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>() - 1, y + 1);</div><div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a2ed498ff1edaaf536ed65f5deb8759e2"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">TetrixBoard::squareWidth</a></div><div class="ttdeci">int squareWidth()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00097">tetrixboard.h:97</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a3350e4f00935cde6fb2c567fb61c628a"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">TetrixBoard::squareHeight</a></div><div class="ttdeci">int squareHeight()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00098">tetrixboard.h:98</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adb18f8c709c20e01e1639703d5697458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb18f8c709c20e01e1639703d5697458">&#9670;&nbsp;</a></span>dropDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::dropDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[18] </p>
+<p>[19] </p>
+<p>[19] //! [20] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00237">237</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordtype">int</span> dropHeight = 0;</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordtype">int</span> newY = <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a>;</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">while</span> (newY &gt; 0) {</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a>, newY - 1))</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">break</span>;</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        --newY;</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        ++dropHeight;</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    }</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a232b601a8cde5824aea18c21f388526f">pieceDropped</a>(dropHeight);</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a232b601a8cde5824aea18c21f388526f"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a232b601a8cde5824aea18c21f388526f">TetrixBoard::pieceDropped</a></div><div class="ttdeci">void pieceDropped(int dropHeight)</div><div class="ttdoc">[21] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00261">tetrixboard.cpp:261</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad15d60d66fe86d18cc44d030df1b6c1e"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">TetrixBoard::tryMove</a></div><div class="ttdeci">bool tryMove(const TetrixPiece &amp;newPiece, int newX, int newY)</div><div class="ttdoc">[33] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00375">tetrixboard.cpp:375</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9e7f7e15484f6a38b7bcc99b892024cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7f7e15484f6a38b7bcc99b892024cf">&#9670;&nbsp;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[12] </p>
+<p>[13] </p>
+<p>[13]</p>
+<p>[14]</p>
+<p>[14] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00175">175</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;{</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">isStarted</a> || <a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a> || <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">shape</a>() == <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>) {</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        QFrame::keyPressEvent(event);</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">switch</span> (event-&gt;key()) {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">case</span> Qt::Key_Left:</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a> - 1, <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a>);</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">case</span> Qt::Key_Right:</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a> + 1, <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a>);</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">case</span> Qt::Key_Down:</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#af8d32120e8c37c752eb1089b1a0fe3f3">rotatedRight</a>(), <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a>);</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">case</span> Qt::Key_Up:</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#ae89e74ba8e86189cfd172e05abb60a5f">rotatedLeft</a>(), <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a>);</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">case</span> Qt::Key_Space:</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#adb18f8c709c20e01e1639703d5697458">dropDown</a>();</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">case</span> Qt::Key_D:</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a1f56b509e625602512d5a74e35138cfb">oneLineDown</a>();</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordflow">default</span>:</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        QFrame::keyPressEvent(event);</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a6ec0c37791251e5fbac2c00ac5011a25"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">TetrixBoard::isStarted</a></div><div class="ttdeci">bool isStarted</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00111">tetrixboard.h:111</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a2b1caf95731dd44b53be708a513ab27b"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">TetrixBoard::isPaused</a></div><div class="ttdeci">bool isPaused</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00112">tetrixboard.h:112</a></div></div>
+<div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_ae89e74ba8e86189cfd172e05abb60a5f"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#ae89e74ba8e86189cfd172e05abb60a5f">TetrixPiece::rotatedLeft</a></div><div class="ttdeci">TetrixPiece rotatedLeft() const</div><div class="ttdoc">[6] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00126">tetrixpiece.cpp:126</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1f56b509e625602512d5a74e35138cfb"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1f56b509e625602512d5a74e35138cfb">TetrixBoard::oneLineDown</a></div><div class="ttdeci">void oneLineDown()</div><div class="ttdoc">[20] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00253">tetrixboard.cpp:253</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_adb18f8c709c20e01e1639703d5697458"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#adb18f8c709c20e01e1639703d5697458">TetrixBoard::dropDown</a></div><div class="ttdeci">void dropDown()</div><div class="ttdoc">[18] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00237">tetrixboard.cpp:237</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_af8d32120e8c37c752eb1089b1a0fe3f3"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#af8d32120e8c37c752eb1089b1a0fe3f3">TetrixPiece::rotatedRight</a></div><div class="ttdeci">TetrixPiece rotatedRight() const</div><div class="ttdoc">[9] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00142">tetrixpiece.cpp:142</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad15d60d66fe86d18cc44d030df1b6c1e"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">TetrixBoard::tryMove</a></div><div class="ttdeci">bool tryMove(const TetrixPiece &amp;newPiece, int newX, int newY)</div><div class="ttdoc">[33] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00375">tetrixboard.cpp:375</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_aa23d870199dbd415b6adfac8a0b11f1a"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">TetrixPiece::shape</a></div><div class="ttdeci">TetrixShape shape() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00066">tetrixpiece.h:66</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aae6c23985bc3e11621267d0a261a23b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae6c23985bc3e11621267d0a261a23b1">&#9670;&nbsp;</a></span>levelChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::levelChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5668471e8260c0de58844b36db7c70ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5668471e8260c0de58844b36db7c70ac">&#9670;&nbsp;</a></span>linesRemovedChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::linesRemovedChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numLines</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43f439b1b046a725e25e76bac5f80585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43f439b1b046a725e25e76bac5f80585">&#9670;&nbsp;</a></span>minimumSizeHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize TetrixBoard::minimumSizeHint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[2] //! [3] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00083">83</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">return</span> QSize(<a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> * 5 + frameWidth() * 2,</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                 <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> * 5 + frameWidth() * 2);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9c3bf521d1e493a1ef30c908f9b95ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c3bf521d1e493a1ef30c908f9b95ebf">&#9670;&nbsp;</a></span>newPiece()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::newPiece </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[29] </p>
+<p>[30] </p>
+<p>[30] //! [31] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00333">333</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;{</div><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a> = <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>;</div><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a1b5fd06886e455c0b77538112cff06db">setRandomShape</a>();</div><div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#ad477629cde4a828d974ef4b6fe6d9e88">showNextPiece</a>();</div><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a> = <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> / 2 + 1;</div><div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a> = <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> - 1 + <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a3469568db6039b105be350fc7272f1cf">minY</a>();</div><div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a>)) {</div><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a3e1c141fabd358838089ed8eeb63899c">setShape</a>(<a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>);</div><div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.stop();</div><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">isStarted</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    }</div><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a6ec0c37791251e5fbac2c00ac5011a25"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">TetrixBoard::isStarted</a></div><div class="ttdeci">bool isStarted</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00111">tetrixboard.h:111</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a336b49118d293dc575c57cf6ba1499a8"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">TetrixBoard::timer</a></div><div class="ttdeci">QBasicTimer timer</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00109">tetrixboard.h:109</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a3469568db6039b105be350fc7272f1cf"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a3469568db6039b105be350fc7272f1cf">TetrixPiece::minY</a></div><div class="ttdeci">int minY() const</div><div class="ttdoc">[4] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00107">tetrixpiece.cpp:107</a></div></div>
+<div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a1b5fd06886e455c0b77538112cff06db"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a1b5fd06886e455c0b77538112cff06db">TetrixPiece::setRandomShape</a></div><div class="ttdeci">void setRandomShape()</div><div class="ttdoc">[0] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00058">tetrixpiece.cpp:58</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a3e1c141fabd358838089ed8eeb63899c"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a3e1c141fabd358838089ed8eeb63899c">TetrixPiece::setShape</a></div><div class="ttdeci">void setShape(TetrixShape shape)</div><div class="ttdoc">[0] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00065">tetrixpiece.cpp:65</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad15d60d66fe86d18cc44d030df1b6c1e"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">TetrixBoard::tryMove</a></div><div class="ttdeci">bool tryMove(const TetrixPiece &amp;newPiece, int newX, int newY)</div><div class="ttdoc">[33] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00375">tetrixboard.cpp:375</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad477629cde4a828d974ef4b6fe6d9e88"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad477629cde4a828d974ef4b6fe6d9e88">TetrixBoard::showNextPiece</a></div><div class="ttdeci">void showNextPiece()</div><div class="ttdoc">[31] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00351">tetrixboard.cpp:351</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a53d5d2ed5e9f5fa20bbea5dd0edc58fa"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">TetrixBoard::nextPiece</a></div><div class="ttdeci">TetrixPiece nextPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00115">tetrixboard.h:115</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1f56b509e625602512d5a74e35138cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f56b509e625602512d5a74e35138cfb">&#9670;&nbsp;</a></span>oneLineDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::oneLineDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[20] </p>
+<p>[21] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00253">253</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;{</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">tryMove</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a>, <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a> - 1))</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a232b601a8cde5824aea18c21f388526f">pieceDropped</a>(0);</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a232b601a8cde5824aea18c21f388526f"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a232b601a8cde5824aea18c21f388526f">TetrixBoard::pieceDropped</a></div><div class="ttdeci">void pieceDropped(int dropHeight)</div><div class="ttdoc">[21] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00261">tetrixboard.cpp:261</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad15d60d66fe86d18cc44d030df1b6c1e"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad15d60d66fe86d18cc44d030df1b6c1e">TetrixBoard::tryMove</a></div><div class="ttdeci">bool tryMove(const TetrixPiece &amp;newPiece, int newX, int newY)</div><div class="ttdoc">[33] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00375">tetrixboard.cpp:375</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acb15cb84aa3134ab774bd7ae49ee65ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb15cb84aa3134ab774bd7ae49ee65ab">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[6] </p>
+<p>[7] </p>
+<p>[7]</p>
+<p>[8]</p>
+<p>[8] //! [9]</p>
+<p>[9]</p>
+<p>[10]</p>
+<p>[10] //! [11]</p>
+<p>[11] //! [12] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00132">132</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    QFrame::paintEvent(event);</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    QPainter painter(<span class="keyword">this</span>);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    QRect rect = contentsRect();</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a>) {</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        painter.drawText(rect, Qt::AlignCenter, tr(<span class="stringliteral">&quot;Pause&quot;</span>));</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">int</span> boardTop = rect.bottom() - <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a>*<a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>();</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a>; ++i) {</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>; ++j) {</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a> shape = <a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(j, <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> - i - 1);</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">if</span> (shape != <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>)</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                <a class="code" href="../../da/d6c/classTetrixBoard.html#accfdb843c964c1c3c964f87dd268b2ce">drawSquare</a>(painter, rect.left() + j * <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>(),</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                           boardTop + i * <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>(), shape);</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">shape</a>() != <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>) {</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i) {</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordtype">int</span> x = <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a> + <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6">x</a>(i);</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keywordtype">int</span> y = <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a> - <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830">y</a>(i);</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <a class="code" href="../../da/d6c/classTetrixBoard.html#accfdb843c964c1c3c964f87dd268b2ce">drawSquare</a>(painter, rect.left() + x * <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>(),</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                       boardTop + (<a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> - y - 1) * <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>(),</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                       <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">shape</a>());</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a2b1caf95731dd44b53be708a513ab27b"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">TetrixBoard::isPaused</a></div><div class="ttdeci">bool isPaused</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00112">tetrixboard.h:112</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a2ed498ff1edaaf536ed65f5deb8759e2"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">TetrixBoard::squareWidth</a></div><div class="ttdeci">int squareWidth()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00097">tetrixboard.h:97</a></div></div>
+<div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342e"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a></div><div class="ttdeci">TetrixShape</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a877dc0fa3a783e740142f00b8dda2830"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830">TetrixPiece::y</a></div><div class="ttdeci">int y(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00068">tetrixpiece.h:68</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a3350e4f00935cde6fb2c567fb61c628a"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">TetrixBoard::squareHeight</a></div><div class="ttdeci">int squareHeight()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00098">tetrixboard.h:98</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a038f17377b8e953158ebbfd09b548ed6"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6">TetrixPiece::x</a></div><div class="ttdeci">int x(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00067">tetrixpiece.h:67</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_aa23d870199dbd415b6adfac8a0b11f1a"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">TetrixPiece::shape</a></div><div class="ttdeci">TetrixShape shape() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00066">tetrixpiece.h:66</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_af8f2f1c155c948d8b70f9d1ca9f1b050"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">TetrixBoard::shapeAt</a></div><div class="ttdeci">TetrixShape &amp; shapeAt(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00095">tetrixboard.h:95</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_accfdb843c964c1c3c964f87dd268b2ce"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#accfdb843c964c1c3c964f87dd268b2ce">TetrixBoard::drawSquare</a></div><div class="ttdeci">void drawSquare(QPainter &amp;painter, int x, int y, TetrixShape shape)</div><div class="ttdoc">[35] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00397">tetrixboard.cpp:397</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab9efdfca0956d6896863de76ef838a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9efdfca0956d6896863de76ef838a5c">&#9670;&nbsp;</a></span>pause</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::pause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[4] </p>
+<p>[5] </p>
+<p>[5] //! [6] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00115">115</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">isStarted</a>)</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a> = !<a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a>;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a>) {</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.stop();</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.start(<a class="code" href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">timeoutTime</a>(), <span class="keyword">this</span>);</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    update();</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a6ec0c37791251e5fbac2c00ac5011a25"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">TetrixBoard::isStarted</a></div><div class="ttdeci">bool isStarted</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00111">tetrixboard.h:111</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a336b49118d293dc575c57cf6ba1499a8"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">TetrixBoard::timer</a></div><div class="ttdeci">QBasicTimer timer</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00109">tetrixboard.h:109</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a2b1caf95731dd44b53be708a513ab27b"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">TetrixBoard::isPaused</a></div><div class="ttdeci">bool isPaused</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00112">tetrixboard.h:112</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1a0e24928b7fa092b0c7e1582f79c805"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">TetrixBoard::timeoutTime</a></div><div class="ttdeci">int timeoutTime()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00096">tetrixboard.h:96</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a232b601a8cde5824aea18c21f388526f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a232b601a8cde5824aea18c21f388526f">&#9670;&nbsp;</a></span>pieceDropped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::pieceDropped </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dropHeight</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[21] </p>
+<p>[22] </p>
+<p>[22] //! [23] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00261">261</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;{</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i) {</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordtype">int</span> x = <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a> + <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6">x</a>(i);</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordtype">int</span> y = <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a> - <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830">y</a>(i);</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(x, y) = <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">shape</a>();</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    ++<a class="code" href="../../da/d6c/classTetrixBoard.html#ab81458427a092cb77a0bd13621d1da55">numPiecesDropped</a>;</div><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#ab81458427a092cb77a0bd13621d1da55">numPiecesDropped</a> % 25 == 0) {</div><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        ++<a class="code" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a>;</div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.start(<a class="code" href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">timeoutTime</a>(), <span class="keyword">this</span>);</div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        emit <a class="code" href="../../da/d6c/classTetrixBoard.html#aae6c23985bc3e11621267d0a261a23b1">levelChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a>);</div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a> += dropHeight + 7;</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    emit <a class="code" href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">scoreChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a>);</div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a416472ea4841260180348c6a1229393d">removeFullLines</a>();</div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">isWaitingAfterLine</a>)</div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>();</div><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a336b49118d293dc575c57cf6ba1499a8"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">TetrixBoard::timer</a></div><div class="ttdeci">QBasicTimer timer</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00109">tetrixboard.h:109</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ab81458427a092cb77a0bd13621d1da55"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ab81458427a092cb77a0bd13621d1da55">TetrixBoard::numPiecesDropped</a></div><div class="ttdeci">int numPiecesDropped</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00119">tetrixboard.h:119</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a877dc0fa3a783e740142f00b8dda2830"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830">TetrixPiece::y</a></div><div class="ttdeci">int y(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00068">tetrixpiece.h:68</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ab0050c6ef709db649cae11d82f685101"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">TetrixBoard::isWaitingAfterLine</a></div><div class="ttdeci">bool isWaitingAfterLine</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00113">tetrixboard.h:113</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1a0e24928b7fa092b0c7e1582f79c805"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">TetrixBoard::timeoutTime</a></div><div class="ttdeci">int timeoutTime()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00096">tetrixboard.h:96</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9ee4ac6c01d5083b1d97c64302fe7db1"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">TetrixBoard::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00120">tetrixboard.h:120</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a038f17377b8e953158ebbfd09b548ed6"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6">TetrixPiece::x</a></div><div class="ttdeci">int x(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00067">tetrixpiece.h:67</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a92391ad9b9eba7eb38e08befbfa4a6ab"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">TetrixBoard::scoreChanged</a></div><div class="ttdeci">void scoreChanged(int score)</div></div>
+<div class="ttc" id="classTetrixBoard_html_aae6c23985bc3e11621267d0a261a23b1"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#aae6c23985bc3e11621267d0a261a23b1">TetrixBoard::levelChanged</a></div><div class="ttdeci">void levelChanged(int level)</div></div>
+<div class="ttc" id="classTetrixPiece_html_aa23d870199dbd415b6adfac8a0b11f1a"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">TetrixPiece::shape</a></div><div class="ttdeci">TetrixShape shape() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00066">tetrixpiece.h:66</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ae0be9c3dc2560c49822101394d1e60bc"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">TetrixBoard::level</a></div><div class="ttdeci">int level</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00121">tetrixboard.h:121</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9c3bf521d1e493a1ef30c908f9b95ebf"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">TetrixBoard::newPiece</a></div><div class="ttdeci">void newPiece()</div><div class="ttdoc">[29] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00333">tetrixboard.cpp:333</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a416472ea4841260180348c6a1229393d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a416472ea4841260180348c6a1229393d">TetrixBoard::removeFullLines</a></div><div class="ttdeci">void removeFullLines()</div><div class="ttdoc">[23] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00287">tetrixboard.cpp:287</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_af8f2f1c155c948d8b70f9d1ca9f1b050"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">TetrixBoard::shapeAt</a></div><div class="ttdeci">TetrixShape &amp; shapeAt(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00095">tetrixboard.h:95</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a416472ea4841260180348c6a1229393d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416472ea4841260180348c6a1229393d">&#9670;&nbsp;</a></span>removeFullLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::removeFullLines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[23] </p>
+<p>[24] </p>
+<p>[24] //! [25]</p>
+<p>[25] //! [26]</p>
+<p>[26] //! [27]</p>
+<p>[27]</p>
+<p>[28]</p>
+<p>[28] //! [29] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00287">287</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordtype">int</span> numFullLines = 0;</div><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> - 1; i &gt;= 0; --i) {</div><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordtype">bool</span> lineIsFull = <span class="keyword">true</span>;</div><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>; ++j) {</div><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(j, i) == <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>) {</div><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                lineIsFull = <span class="keyword">false</span>;</div><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            }</div><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        }</div><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div><div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="keywordflow">if</span> (lineIsFull) {</div><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            ++numFullLines;</div><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = i; k &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> - 1; ++k) {</div><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>; ++j)</div><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                    <a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(j, k) = <a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(j, k + 1);</div><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            }</div><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>; ++j)</div><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(j, <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> - 1) = <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>;</div><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        }</div><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">if</span> (numFullLines &gt; 0) {</div><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">numLinesRemoved</a> += numFullLines;</div><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a> += 10 * numFullLines;</div><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        emit <a class="code" href="../../da/d6c/classTetrixBoard.html#a5668471e8260c0de58844b36db7c70ac">linesRemovedChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">numLinesRemoved</a>);</div><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        emit <a class="code" href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">scoreChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a>);</div><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.start(500, <span class="keyword">this</span>);</div><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">isWaitingAfterLine</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a3e1c141fabd358838089ed8eeb63899c">setShape</a>(<a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>);</div><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        update();</div><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    }</div><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a336b49118d293dc575c57cf6ba1499a8"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">TetrixBoard::timer</a></div><div class="ttdeci">QBasicTimer timer</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00109">tetrixboard.h:109</a></div></div>
+<div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ab0050c6ef709db649cae11d82f685101"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">TetrixBoard::isWaitingAfterLine</a></div><div class="ttdeci">bool isWaitingAfterLine</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00113">tetrixboard.h:113</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9ee4ac6c01d5083b1d97c64302fe7db1"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">TetrixBoard::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00120">tetrixboard.h:120</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a3e1c141fabd358838089ed8eeb63899c"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a3e1c141fabd358838089ed8eeb63899c">TetrixPiece::setShape</a></div><div class="ttdeci">void setShape(TetrixShape shape)</div><div class="ttdoc">[0] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00065">tetrixpiece.cpp:65</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1fa810c3cd9cacbce3c6f80dae271ad4"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">TetrixBoard::numLinesRemoved</a></div><div class="ttdeci">int numLinesRemoved</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00118">tetrixboard.h:118</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a92391ad9b9eba7eb38e08befbfa4a6ab"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">TetrixBoard::scoreChanged</a></div><div class="ttdeci">void scoreChanged(int score)</div></div>
+<div class="ttc" id="classTetrixBoard_html_a5668471e8260c0de58844b36db7c70ac"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a5668471e8260c0de58844b36db7c70ac">TetrixBoard::linesRemovedChanged</a></div><div class="ttdeci">void linesRemovedChanged(int numLines)</div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_af8f2f1c155c948d8b70f9d1ca9f1b050"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">TetrixBoard::shapeAt</a></div><div class="ttdeci">TetrixShape &amp; shapeAt(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00095">tetrixboard.h:95</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a92391ad9b9eba7eb38e08befbfa4a6ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92391ad9b9eba7eb38e08befbfa4a6ab">&#9670;&nbsp;</a></span>scoreChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::scoreChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>score</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3ed6222f1dab7974cf6e21ae4cec2bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ed6222f1dab7974cf6e21ae4cec2bc">&#9670;&nbsp;</a></span>setNextPieceLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::setNextPieceLabel </td>
+          <td>(</td>
+          <td class="paramtype">QLabel *&#160;</td>
+          <td class="paramname"><em>label</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>[0] </p>
+<p>[1] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00070">70</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">nextPieceLabel</a> = label;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_aadb1a5a7e31203ff18f297688dcddce4"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">TetrixBoard::nextPieceLabel</a></div><div class="ttdeci">QPointer&lt; QLabel &gt; nextPieceLabel</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00110">tetrixboard.h:110</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af8f2f1c155c948d8b70f9d1ca9f1b050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8f2f1c155c948d8b70f9d1ca9f1b050">&#9670;&nbsp;</a></span>shapeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a>&amp; TetrixBoard::shapeAt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00095">95</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/classTetrixBoard.html#a45191f503289922c875c5cc70d240b5f">board</a>[(y * <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>) + x]; }</div><div class="ttc" id="classTetrixBoard_html_a45191f503289922c875c5cc70d240b5f"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a45191f503289922c875c5cc70d240b5f">TetrixBoard::board</a></div><div class="ttdeci">TetrixShape board[BoardWidth *BoardHeight]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00122">tetrixboard.h:122</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad477629cde4a828d974ef4b6fe6d9e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad477629cde4a828d974ef4b6fe6d9e88">&#9670;&nbsp;</a></span>showNextPiece()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::showNextPiece </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[31] </p>
+<p>[32] </p>
+<p>[32] //! [33] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00351">351</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;{</div><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">nextPieceLabel</a>)</div><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div><div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordtype">int</span> dx = <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a2a6ad00071ae9fbff44a4a8ada504430">maxX</a>() - <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#abd11cd1eb943ca6c829a58bee4f52ae1">minX</a>() + 1;</div><div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordtype">int</span> dy = <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a0bf07a4b38d51e03dc53db766809b046">maxY</a>() - <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a3469568db6039b105be350fc7272f1cf">minY</a>() + 1;</div><div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div><div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    QPixmap pixmap(dx * <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>(), dy * <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>());</div><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    QPainter painter(&amp;pixmap);</div><div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    painter.fillRect(pixmap.rect(), <a class="code" href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">nextPieceLabel</a>-&gt;palette().background());</div><div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div><div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i) {</div><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordtype">int</span> x = <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6">x</a>(i) - <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#abd11cd1eb943ca6c829a58bee4f52ae1">minX</a>();</div><div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <span class="keywordtype">int</span> y = <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830">y</a>(i) - <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#a3469568db6039b105be350fc7272f1cf">minY</a>();</div><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <a class="code" href="../../da/d6c/classTetrixBoard.html#accfdb843c964c1c3c964f87dd268b2ce">drawSquare</a>(painter, x * <a class="code" href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">squareWidth</a>(), y * <a class="code" href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">squareHeight</a>(),</div><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                   <a class="code" href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">nextPiece</a>.<a class="code" href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">shape</a>());</div><div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    }</div><div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">nextPieceLabel</a>-&gt;setPixmap(pixmap);</div><div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;}</div><div class="ttc" id="classTetrixPiece_html_abd11cd1eb943ca6c829a58bee4f52ae1"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#abd11cd1eb943ca6c829a58bee4f52ae1">TetrixPiece::minX</a></div><div class="ttdeci">int minX() const</div><div class="ttdoc">[2] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00088">tetrixpiece.cpp:88</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a3469568db6039b105be350fc7272f1cf"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a3469568db6039b105be350fc7272f1cf">TetrixPiece::minY</a></div><div class="ttdeci">int minY() const</div><div class="ttdoc">[4] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00107">tetrixpiece.cpp:107</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a2ed498ff1edaaf536ed65f5deb8759e2"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2ed498ff1edaaf536ed65f5deb8759e2">TetrixBoard::squareWidth</a></div><div class="ttdeci">int squareWidth()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00097">tetrixboard.h:97</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a877dc0fa3a783e740142f00b8dda2830"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a877dc0fa3a783e740142f00b8dda2830">TetrixPiece::y</a></div><div class="ttdeci">int y(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00068">tetrixpiece.h:68</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a3350e4f00935cde6fb2c567fb61c628a"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a3350e4f00935cde6fb2c567fb61c628a">TetrixBoard::squareHeight</a></div><div class="ttdeci">int squareHeight()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00098">tetrixboard.h:98</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a2a6ad00071ae9fbff44a4a8ada504430"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a2a6ad00071ae9fbff44a4a8ada504430">TetrixPiece::maxX</a></div><div class="ttdeci">int maxX() const</div><div class="ttdoc">[3] //! [4] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00096">tetrixpiece.cpp:96</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_aadb1a5a7e31203ff18f297688dcddce4"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#aadb1a5a7e31203ff18f297688dcddce4">TetrixBoard::nextPieceLabel</a></div><div class="ttdeci">QPointer&lt; QLabel &gt; nextPieceLabel</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00110">tetrixboard.h:110</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a038f17377b8e953158ebbfd09b548ed6"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a038f17377b8e953158ebbfd09b548ed6">TetrixPiece::x</a></div><div class="ttdeci">int x(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00067">tetrixpiece.h:67</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_aa23d870199dbd415b6adfac8a0b11f1a"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#aa23d870199dbd415b6adfac8a0b11f1a">TetrixPiece::shape</a></div><div class="ttdeci">TetrixShape shape() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00066">tetrixpiece.h:66</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a53d5d2ed5e9f5fa20bbea5dd0edc58fa"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">TetrixBoard::nextPiece</a></div><div class="ttdeci">TetrixPiece nextPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00115">tetrixboard.h:115</a></div></div>
+<div class="ttc" id="classTetrixPiece_html_a0bf07a4b38d51e03dc53db766809b046"><div class="ttname"><a href="../../d3/df9/classTetrixPiece.html#a0bf07a4b38d51e03dc53db766809b046">TetrixPiece::maxY</a></div><div class="ttdeci">int maxY() const</div><div class="ttdoc">[5] //! [6] </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/tetrixpiece_8cpp_source.html#l00115">tetrixpiece.cpp:115</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_accfdb843c964c1c3c964f87dd268b2ce"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#accfdb843c964c1c3c964f87dd268b2ce">TetrixBoard::drawSquare</a></div><div class="ttdeci">void drawSquare(QPainter &amp;painter, int x, int y, TetrixShape shape)</div><div class="ttdoc">[35] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00397">tetrixboard.cpp:397</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6993342a4a9c5d5b14e5844b85c6835f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6993342a4a9c5d5b14e5844b85c6835f">&#9670;&nbsp;</a></span>sizeHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize TetrixBoard::sizeHint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[1] </p>
+<p>[2] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00077">77</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">return</span> QSize(<a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> * 15 + frameWidth() * 2,</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                 <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a> * 15 + frameWidth() * 2);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3350e4f00935cde6fb2c567fb61c628a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3350e4f00935cde6fb2c567fb61c628a">&#9670;&nbsp;</a></span>squareHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::squareHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00098">98</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{ <span class="keywordflow">return</span> contentsRect().height() / <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a>; }</div><div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2ed498ff1edaaf536ed65f5deb8759e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ed498ff1edaaf536ed65f5deb8759e2">&#9670;&nbsp;</a></span>squareWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::squareWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00097">97</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{ <span class="keywordflow">return</span> contentsRect().width() / <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a>; }</div><div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a15181dfd0dca197cae1acfaa94c76b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15181dfd0dca197cae1acfaa94c76b8d">&#9670;&nbsp;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[3] </p>
+<p>[4] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00092">92</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">isPaused</a>)</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">isStarted</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">isWaitingAfterLine</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">numLinesRemoved</a> = 0;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#ab81458427a092cb77a0bd13621d1da55">numPiecesDropped</a> = 0;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a> = 0;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a> = 1;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a96f52bbc23ca76143838bbd7c743f869">clearBoard</a>();</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    emit <a class="code" href="../../da/d6c/classTetrixBoard.html#a5668471e8260c0de58844b36db7c70ac">linesRemovedChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">numLinesRemoved</a>);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    emit <a class="code" href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">scoreChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">score</a>);</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    emit <a class="code" href="../../da/d6c/classTetrixBoard.html#aae6c23985bc3e11621267d0a261a23b1">levelChanged</a>(<a class="code" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a>);</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>();</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.start(<a class="code" href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">timeoutTime</a>(), <span class="keyword">this</span>);</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a6ec0c37791251e5fbac2c00ac5011a25"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a6ec0c37791251e5fbac2c00ac5011a25">TetrixBoard::isStarted</a></div><div class="ttdeci">bool isStarted</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00111">tetrixboard.h:111</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a336b49118d293dc575c57cf6ba1499a8"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">TetrixBoard::timer</a></div><div class="ttdeci">QBasicTimer timer</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00109">tetrixboard.h:109</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a2b1caf95731dd44b53be708a513ab27b"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a2b1caf95731dd44b53be708a513ab27b">TetrixBoard::isPaused</a></div><div class="ttdeci">bool isPaused</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00112">tetrixboard.h:112</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ab81458427a092cb77a0bd13621d1da55"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ab81458427a092cb77a0bd13621d1da55">TetrixBoard::numPiecesDropped</a></div><div class="ttdeci">int numPiecesDropped</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00119">tetrixboard.h:119</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a96f52bbc23ca76143838bbd7c743f869"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a96f52bbc23ca76143838bbd7c743f869">TetrixBoard::clearBoard</a></div><div class="ttdeci">void clearBoard()</div><div class="ttdoc">[17] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00229">tetrixboard.cpp:229</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ab0050c6ef709db649cae11d82f685101"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">TetrixBoard::isWaitingAfterLine</a></div><div class="ttdeci">bool isWaitingAfterLine</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00113">tetrixboard.h:113</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1a0e24928b7fa092b0c7e1582f79c805"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">TetrixBoard::timeoutTime</a></div><div class="ttdeci">int timeoutTime()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00096">tetrixboard.h:96</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9ee4ac6c01d5083b1d97c64302fe7db1"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9ee4ac6c01d5083b1d97c64302fe7db1">TetrixBoard::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00120">tetrixboard.h:120</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1fa810c3cd9cacbce3c6f80dae271ad4"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1fa810c3cd9cacbce3c6f80dae271ad4">TetrixBoard::numLinesRemoved</a></div><div class="ttdeci">int numLinesRemoved</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00118">tetrixboard.h:118</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_aae6c23985bc3e11621267d0a261a23b1"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#aae6c23985bc3e11621267d0a261a23b1">TetrixBoard::levelChanged</a></div><div class="ttdeci">void levelChanged(int level)</div></div>
+<div class="ttc" id="classTetrixBoard_html_a92391ad9b9eba7eb38e08befbfa4a6ab"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a92391ad9b9eba7eb38e08befbfa4a6ab">TetrixBoard::scoreChanged</a></div><div class="ttdeci">void scoreChanged(int score)</div></div>
+<div class="ttc" id="classTetrixBoard_html_ae0be9c3dc2560c49822101394d1e60bc"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">TetrixBoard::level</a></div><div class="ttdeci">int level</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00121">tetrixboard.h:121</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9c3bf521d1e493a1ef30c908f9b95ebf"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">TetrixBoard::newPiece</a></div><div class="ttdeci">void newPiece()</div><div class="ttdoc">[29] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00333">tetrixboard.cpp:333</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a5668471e8260c0de58844b36db7c70ac"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a5668471e8260c0de58844b36db7c70ac">TetrixBoard::linesRemovedChanged</a></div><div class="ttdeci">void linesRemovedChanged(int numLines)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1a0e24928b7fa092b0c7e1582f79c805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0e24928b7fa092b0c7e1582f79c805">&#9670;&nbsp;</a></span>timeoutTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::timeoutTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00096">96</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{ <span class="keywordflow">return</span> 1000 / (1 + <a class="code" href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">level</a>); }</div><div class="ttc" id="classTetrixBoard_html_ae0be9c3dc2560c49822101394d1e60bc"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ae0be9c3dc2560c49822101394d1e60bc">TetrixBoard::level</a></div><div class="ttdeci">int level</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00121">tetrixboard.h:121</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3c7c72e6b278967365178bd5edf5b20a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c7c72e6b278967365178bd5edf5b20a">&#9670;&nbsp;</a></span>timerEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TetrixBoard::timerEvent </td>
+          <td>(</td>
+          <td class="paramtype">QTimerEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[15] </p>
+<p>[15] //! [16]</p>
+<p>[16] //! [17] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00210">210</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;{</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">if</span> (event-&gt;timerId() == <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.timerId()) {</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">isWaitingAfterLine</a>) {</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <a class="code" href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">isWaitingAfterLine</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <a class="code" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>();</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <a class="code" href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">timer</a>.start(<a class="code" href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">timeoutTime</a>(), <span class="keyword">this</span>);</div><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <a class="code" href="../../da/d6c/classTetrixBoard.html#a1f56b509e625602512d5a74e35138cfb">oneLineDown</a>();</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        }</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        QFrame::timerEvent(event);</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    }</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;}</div><div class="ttc" id="classTetrixBoard_html_a336b49118d293dc575c57cf6ba1499a8"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a336b49118d293dc575c57cf6ba1499a8">TetrixBoard::timer</a></div><div class="ttdeci">QBasicTimer timer</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00109">tetrixboard.h:109</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ab0050c6ef709db649cae11d82f685101"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ab0050c6ef709db649cae11d82f685101">TetrixBoard::isWaitingAfterLine</a></div><div class="ttdeci">bool isWaitingAfterLine</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00113">tetrixboard.h:113</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1a0e24928b7fa092b0c7e1582f79c805"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1a0e24928b7fa092b0c7e1582f79c805">TetrixBoard::timeoutTime</a></div><div class="ttdeci">int timeoutTime()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00096">tetrixboard.h:96</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a1f56b509e625602512d5a74e35138cfb"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a1f56b509e625602512d5a74e35138cfb">TetrixBoard::oneLineDown</a></div><div class="ttdeci">void oneLineDown()</div><div class="ttdoc">[20] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00253">tetrixboard.cpp:253</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9c3bf521d1e493a1ef30c908f9b95ebf"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">TetrixBoard::newPiece</a></div><div class="ttdeci">void newPiece()</div><div class="ttdoc">[29] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00333">tetrixboard.cpp:333</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad15d60d66fe86d18cc44d030df1b6c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad15d60d66fe86d18cc44d030df1b6c1e">&#9670;&nbsp;</a></span>tryMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TetrixBoard::tryMove </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/df9/classTetrixPiece.html">TetrixPiece</a> &amp;&#160;</td>
+          <td class="paramname"><em>newPiece</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[33] </p>
+<p>[34] </p>
+<p>[34]</p>
+<p>[35] </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html#l00375">375</a> du fichier <a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;{</div><div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i) {</div><div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <span class="keywordtype">int</span> x = newX + <a class="code" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>.x(i);</div><div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keywordtype">int</span> y = newY - <a class="code" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>.y(i);</div><div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <span class="keywordflow">if</span> (x &lt; 0 || x &gt;= <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> || y &lt; 0 || y &gt;= <a class="code" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a>)</div><div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">shapeAt</a>(x, y) != <a class="code" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a>)</div><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    }</div><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div><div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">curPiece</a> = <a class="code" href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">newPiece</a>;</div><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">curX</a> = newX;</div><div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <a class="code" href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">curY</a> = newY;</div><div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    update();</div><div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;}</div><div class="ttc" id="tetrixpiece_8h_html_a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873"><div class="ttname"><a href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342ea3f73020bb3eee4324fe1181b5a500873">NoShape</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcb/tetrixpiece_8h_source.html#l00054">tetrixpiece.h:54</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a4dc7845a89226a529147303cdb236a3d"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a4dc7845a89226a529147303cdb236a3d">TetrixBoard::curPiece</a></div><div class="ttdeci">TetrixPiece curPiece</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00114">tetrixboard.h:114</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">TetrixBoard::BoardHeight</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a0e7fbad9b983db73090ee770178d8b70"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a0e7fbad9b983db73090ee770178d8b70">TetrixBoard::curY</a></div><div class="ttdeci">int curY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00117">tetrixboard.h:117</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a9c3bf521d1e493a1ef30c908f9b95ebf"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a9c3bf521d1e493a1ef30c908f9b95ebf">TetrixBoard::newPiece</a></div><div class="ttdeci">void newPiece()</div><div class="ttdoc">[29] </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/tetrixboard_8cpp_source.html#l00333">tetrixboard.cpp:333</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_a385431bde6038cd53aedbefc007b1d50"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#a385431bde6038cd53aedbefc007b1d50">TetrixBoard::curX</a></div><div class="ttdeci">int curX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00116">tetrixboard.h:116</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">TetrixBoard::BoardWidth</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00093">tetrixboard.h:93</a></div></div>
+<div class="ttc" id="classTetrixBoard_html_af8f2f1c155c948d8b70f9d1ca9f1b050"><div class="ttname"><a href="../../da/d6c/classTetrixBoard.html#af8f2f1c155c948d8b70f9d1ca9f1b050">TetrixBoard::shapeAt</a></div><div class="ttdeci">TetrixShape &amp; shapeAt(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db6/tetrixboard_8h_source.html#l00095">tetrixboard.h:95</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a45191f503289922c875c5cc70d240b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45191f503289922c875c5cc70d240b5f">&#9670;&nbsp;</a></span>board</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dcb/tetrixpiece_8h.html#a25c0998592945caa21f8ee87701b342e">TetrixShape</a> TetrixBoard::board[<a class="el" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0eac19340a9667fb6c1ce41cbe109ea5253">BoardWidth</a> *<a class="el" href="../../da/d6c/classTetrixBoard.html#ad35e263de53f6af4439109619d19cc0ea8e03ab01598e583850a08b572de31396">BoardHeight</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00122">122</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a4dc7845a89226a529147303cdb236a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc7845a89226a529147303cdb236a3d">&#9670;&nbsp;</a></span>curPiece</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/df9/classTetrixPiece.html">TetrixPiece</a> TetrixBoard::curPiece</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00114">114</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a385431bde6038cd53aedbefc007b1d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a385431bde6038cd53aedbefc007b1d50">&#9670;&nbsp;</a></span>curX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::curX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00116">116</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a0e7fbad9b983db73090ee770178d8b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e7fbad9b983db73090ee770178d8b70">&#9670;&nbsp;</a></span>curY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::curY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00117">117</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a2b1caf95731dd44b53be708a513ab27b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1caf95731dd44b53be708a513ab27b">&#9670;&nbsp;</a></span>isPaused</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TetrixBoard::isPaused</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00112">112</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a6ec0c37791251e5fbac2c00ac5011a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ec0c37791251e5fbac2c00ac5011a25">&#9670;&nbsp;</a></span>isStarted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TetrixBoard::isStarted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00111">111</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="ab0050c6ef709db649cae11d82f685101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0050c6ef709db649cae11d82f685101">&#9670;&nbsp;</a></span>isWaitingAfterLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TetrixBoard::isWaitingAfterLine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00113">113</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="ae0be9c3dc2560c49822101394d1e60bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0be9c3dc2560c49822101394d1e60bc">&#9670;&nbsp;</a></span>level</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::level</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00121">121</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a53d5d2ed5e9f5fa20bbea5dd0edc58fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d5d2ed5e9f5fa20bbea5dd0edc58fa">&#9670;&nbsp;</a></span>nextPiece</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/df9/classTetrixPiece.html">TetrixPiece</a> TetrixBoard::nextPiece</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00115">115</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="aadb1a5a7e31203ff18f297688dcddce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb1a5a7e31203ff18f297688dcddce4">&#9670;&nbsp;</a></span>nextPieceLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;QLabel&gt; TetrixBoard::nextPieceLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00110">110</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a1fa810c3cd9cacbce3c6f80dae271ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa810c3cd9cacbce3c6f80dae271ad4">&#9670;&nbsp;</a></span>numLinesRemoved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::numLinesRemoved</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00118">118</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="ab81458427a092cb77a0bd13621d1da55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81458427a092cb77a0bd13621d1da55">&#9670;&nbsp;</a></span>numPiecesDropped</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::numPiecesDropped</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00119">119</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a9ee4ac6c01d5083b1d97c64302fe7db1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee4ac6c01d5083b1d97c64302fe7db1">&#9670;&nbsp;</a></span>score</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TetrixBoard::score</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00120">120</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<a id="a336b49118d293dc575c57cf6ba1499a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a336b49118d293dc575c57cf6ba1499a8">&#9670;&nbsp;</a></span>timer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QBasicTimer TetrixBoard::timer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../dd/db6/tetrixboard_8h_source.html#l00109">109</a> du fichier <a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>K:/Exos_qt/tetrix/inc/<a class="el" href="../../dd/db6/tetrixboard_8h_source.html">tetrixboard.h</a></li>
+<li>K:/Exos_qt/tetrix/src/<a class="el" href="../../d0/df4/tetrixboard_8cpp_source.html">tetrixboard.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../da/d6c/classTetrixBoard.html">TetrixBoard</a></li>
+    <li class="footer">Généré par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
