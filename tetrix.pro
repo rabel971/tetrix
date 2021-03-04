@@ -4,6 +4,7 @@ HEADERS       =inc/tetrixboard.h \
                inc/tetrixpiece.h \
                inc/tetrixwindow.h
 SOURCES       =src/main.cpp \
+               src/E2.cpp \
                src/tetrixboard.cpp \
                src/tetrixpiece.cpp \
                src/tetrixwindow.cpp

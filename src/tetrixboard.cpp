@@ -53,17 +53,8 @@
 #include "inc/tetrixboard.h"
 
 //! [0]
-TetrixBoard::TetrixBoard(QWidget *parent)
-    : QFrame(parent)
-{
-    setFrameStyle(QFrame::Panel | QFrame::Sunken);
-    setFocusPolicy(Qt::StrongFocus);
-    isStarted = false;
-    isPaused = false;
-    clearBoard();
 
-    nextPiece.setRandomShape();
-}
+
 //! [0]
 
 //! [1]
